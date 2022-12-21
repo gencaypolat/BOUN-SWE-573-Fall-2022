@@ -23,8 +23,40 @@ This is the repository of the Software Development Practice course project given
 <img src="https://user-images.githubusercontent.com/73085616/208882850-c047fd49-1786-4215-8065-7a0d4ba77552.png" width="400" height="400" />
 </div>
 
+# **Introduction**
+This repository is created for the SWE 573.01 Software Development Practice course offered in the Fall Semester 2022 at Bogazici University.
+
+This goal of the project is to create a software product based on the stated requirements to the deployment stage.
+Please visit the [Wiki Page](https://github.com/gencaypolat/BOUN-SWE-573-Fall-2022/wiki) of this repository to review the project documentation.
+
+The aim of this project is to develop an web application that enables various users to gather information they have come across during their social media interactions under a hub.
+
+Users will also be able to like, comment and share the posts with other users through the application. In order to check project features and issues, 
+please check the [Issues](https://github.com/gencaypolat/BOUN-SWE-573-Fall-2022/issues) of this repository.
+
+In order to get further explanation about the project please see project's [Description](https://github.com/gencaypolat/BOUN-SWE-573-Fall-2022/wiki/3.-Preparation#project-description), [Requirements](https://github.com/gencaypolat/BOUN-SWE-573-Fall-2022/wiki/6.-Requirements),
+and [Mock-Up Screens](https://github.com/gencaypolat/BOUN-SWE-573-Fall-2022/wiki/4.-Mock-Up-Screens) in Wiki Page.
+
+Django framework will be used for developing the project. 
+PostgreSQL will be used as a database.
+Docker will be used for containerization.
+
+- [X] 1st Milestone due on 08.11.2022 
+  - Requirements and basic web application infrastructure with login
+  
 
 
+- [X] 2nd Milestone due on 06.12.2022
+
+  - Fundamental features, Dockerized, deployed
+  
+
+- [ ] 3rd Milestone due on 27.12.2022
+
+  - Complete features, Dockerized, deployed
+
+[Gencay Polat](https://github.com/gencaypolat) will be maintaining the project.
+This project is under supervision of [Suzan Uskudarli](https://github.com/uskudarli) who is the instructor of the course.
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/gencaypolat/BOUN-SWE-573-Fall-2022?style=for-the-badge
