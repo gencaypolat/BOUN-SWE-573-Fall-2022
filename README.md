@@ -1,4 +1,14 @@
-# BOUN-SWE-573-Fall-2022
+<div align="center">
+<h1 align="center">SWE 573 
+
+Software Development Practice
+</h2>
+
+<h2 align="center">
+Fall 2022
+</h3>
+</div>
+
 This is the repository of the Software Development Practice course project given by Suzan Üsküdarlı at Fall Term in 2022.
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -8,6 +18,13 @@ This is the repository of the Software Development Practice course project given
 [![Python][python-shield]][python-url]
 [![Django][django-shield]][django-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73085616/208882850-c047fd49-1786-4215-8065-7a0d4ba77552.png" width="400" height="400" />
+</div>
+
+
+
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/gencaypolat/BOUN-SWE-573-Fall-2022?style=for-the-badge
