@@ -1,22 +1,31 @@
-# Pull base image
-FROM python:3.8-slim-buster
+FROM python:3.8
 
-# Set environment variables
-ENV PIP_DISABLE_PIP_VERSION_CHECK 1
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONBUFFERED 1
 
-# Set work directory
-WORKDIR /code
+WORKDIR /app
 
-# Install dependencies
-COPY ./requirements.txt .
-RUN pip3 install -r requirements.txt
+COPY requirements.txt /app/
 
-# Copy project
-COPY . .
+RUN pip install --upgrade pip
 
-ENTRYPOINT ["python","manage.py","runserver","0.0.0.0:8000"]
+RUN pip install --upgrade setuptools
+
+RUN pip install ez_setup
+
+RUN pip install -r requirements.txt
+
+
+
+
+# FROM python:3
+# ENV PYTHONDONTWRITEBYTECODE=1
+# ENV PYTHONUNBUFFERED=1
+# WORKDIR /code
+# COPY requirements.txt /code/
+# RUN pip install -r requirements.txt
+# COPY . /code/
+# ENTRYPOINT ["./entrypoint.sh"] 
+# CMD [ "python", "manage.py", "runserver", "0.0.0.0:8000" ]
 
 
 

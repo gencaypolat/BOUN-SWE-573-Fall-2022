@@ -26,4 +26,3 @@ sklearn==0.0
 sqlparse==0.4.3
 threadpoolctl==3.1.0
 tomli==2.0.1
-

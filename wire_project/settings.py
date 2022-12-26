@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'wire_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'wiredb',
+        'NAME': 'my_db',
         'USER': 'postgres',
         'PASSWORD': '1234',
         'HOST': 'localhost',
