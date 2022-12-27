@@ -51,7 +51,7 @@ Docker will be used for containerization.
   - Fundamental features, Dockerized, deployed
   
 
-- [ ] 3rd Milestone due on 27.12.2022
+- [X] 3rd Milestone due on 27.12.2022
 
   - Complete features, Dockerized, deployed
 
