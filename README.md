@@ -58,6 +58,7 @@ Docker will be used for containerization.
 [Gencay Polat](https://github.com/gencaypolat) will be maintaining the project.
 This project is under supervision of [Suzan Uskudarli](https://github.com/uskudarli) who is the instructor of the course.
 
+You can visit and use the application via http://3.64.217.219/
 
 [contributors-shield]: https://img.shields.io/github/contributors/gencaypolat/BOUN-SWE-573-Fall-2022?style=for-the-badge
 [contributors-url]: https://github.com/gencaypolat/BOUN-SWE-573-Fall-2022/graphs/contributors
